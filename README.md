@@ -1,6 +1,6 @@
 # MCP Project
 
-The MCP (Multi-Component Platform) project is a modular system that integrates multiple services (SQLite, Filesystem, AWS IAM, Gmail) through a master MCP server, accessible via a custom Streamlit-based web interface optimized for Claude. To support other AI models (e.g., Grok, OpenAI), you need to modify the `client_streamlit.py` code.
+The MCP (Model-Context Protocol) project is a modular system that integrates multiple services (SQLite, Filesystem, AWS IAM, Gmail) through a master MCP server, accessible via a custom Streamlit-based web interface optimized for Claude. To support other AI models (e.g., Grok, OpenAI), you need to modify the `client_streamlit.py` code.
 
 **Note**: This project is specifically built for Claude, utilizing a custom Claude UI written in Streamlit that leverages the Claude API, which is more cost-effective than the Claude desktop application. It also supports interaction via the Claude desktop application if preferred. This is a developer tool requiring specific configurations (e.g., API keys, SMTP settings, file paths) before running. It is not a one-click solution and is intended for users comfortable with setting up and debugging development environments.
 
