@@ -1,5 +1,7 @@
 # MCP Project
 
+MCP servers are lightweight programs that provide AI applications (like Claude, ChatGPT, or AI-enhanced IDEs such as Cursor) with access to external tools, data sources, or services through a standardized protocol. They act as a bridge between the AI model and external systems, enabling seamless interaction without requiring custom integrations for each tool or data source. Think of MCP servers as “adapters” that translate requests from an AI application into actions or data retrieval for specific systems, such as GitHub, Slack, databases, or file systems.
+
 The MCP (Model-Context Protocol) project is a modular system that integrates multiple services (SQLite, Filesystem, AWS IAM, Gmail) through a master MCP server, accessible via a custom Streamlit-based web interface optimized for Claude. To support other AI models (e.g., Grok, OpenAI), you need to modify the `client_streamlit.py` code.
 
 **Note**: This project is specifically built for Claude, utilizing a custom Claude UI written in Streamlit that leverages the Claude API, which is more cost-effective than the Claude desktop application. It also supports interaction via the Claude desktop application if preferred. This is a developer tool requiring specific configurations (e.g., API keys, SMTP settings, file paths) before running. It is not a one-click solution and is intended for users comfortable with setting up and debugging development environments.
