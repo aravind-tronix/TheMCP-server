@@ -1,0 +1,4 @@
+*__pycache__
+*.log
+conversation.db
+token.json

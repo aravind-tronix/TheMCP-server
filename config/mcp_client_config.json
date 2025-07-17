@@ -1,0 +1,27 @@
+{
+  "anthropicApiKey": "sk-ant-api03-xxxxxxxxxxxxx-C3-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-gD9ROQAA",
+  "dbPath": "/mnt/d/linux/TheMCP/conversation.db",
+  "mcpServers": {
+    "master-server": {
+      "url": "https://xxxxxxxxx.ngrok-free.app/mcp",
+      "serverName": "MasterMCPServer",
+      "port": 8006
+    },
+    "filesystem-server": {
+      "allowedDir": "/mnt/d/linux/TheMCP/test",
+      "serverName": "FilesystemServer",
+      "port": 8002
+    },
+    "aws-server": {
+      "serverName": "AWSServer"
+    },
+    "gmail-server": {
+      "serverName": "GmailServer"
+    },
+    "sqlite-server": {
+      "serverName": "SqliteServer",
+      "port": 8000,
+      "dbPath": "/mnt/d/linux/TheMCP/candidates.db"
+    }
+  }
+}
